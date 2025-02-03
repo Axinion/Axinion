@@ -5,21 +5,21 @@
 
 - Current Projects
 
-Audio Feature Analysis for Music Genre Classification and Recommendation System: Utilizing Python and machine learning techniques to classify music genres and build a recommendation system based on audio features.
+  1] Audio Feature Analysis for Music Genre Classification and Recommendation System: Utilizing Python and machine learning techniques to classify music genres and build a recommendation system based on audio features.
 
-Job Recommendation System: Developing a 4-month project to build an intelligent system that suggests job opportunities tailored to user profiles using advanced data science methods.
+  2] Job Recommendation System: Developing a 4-month project to build an intelligent system that suggests job opportunities tailored to user profiles using advanced data science methods.
 
-Netflix Recommender: Conducted exploratory data analysis and developed content-based and collaborative filtering models, improving recommendation precision by 15%.
+  3] Netflix Recommender: Conducted exploratory data analysis and developed content-based and collaborative filtering models, improving recommendation precision by 15%.
 
 - 👨‍💻 All of my projects are available at [https://mihir-pandya.netlify.app/](https://mihir-pandya.netlify.app/)
 
 - 🌱 Learning and Growth
 
-I'm always eager to learn new technologies and improve my skills. Currently, I'm focusing on:
+  1] I'm always eager to learn new technologies and improve my skills. Currently, I'm focusing on:
 
-Advanced Machine Learning Techniques
+  2] Advanced Machine Learning Techniques
 
-Big Data Tools and Technologies
+  3] Big Data Tools and Technologies
 
 Deep Learning and Neural Networks
 

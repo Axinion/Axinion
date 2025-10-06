@@ -5,6 +5,15 @@
 <p align="center"><b>I design and ship ML systems that turn messy data into measurable business impact.</b></p>
 <p align="center"><b>I build LLM/RAG assistants, recommender systems, and analytics that reduce time‑to‑insight and reach production.</b></p>
 
+<p align="center">
+  <img alt="Role: ML Engineer" src="https://img.shields.io/badge/Role-ML%20Engineer-7C3AED?style=flat&labelColor=1F2937" />
+  <img alt="Role: Data Analyst" src="https://img.shields.io/badge/Role-Data%20Analyst-0EA5E9?style=flat&labelColor=1F2937" />
+  <img alt="Role: SWE" src="https://img.shields.io/badge/Role-SWE-10B981?style=flat&labelColor=1F2937" />
+  <img alt="Availability: Full-time" src="https://img.shields.io/badge/Open%20to-Full--time-3B82F6?style=flat&labelColor=1F2937" />
+  <img alt="Availability: Internship" src="https://img.shields.io/badge/Open%20to-Internship-F59E0B?style=flat&labelColor=1F2937" />
+  <img alt="Work mode: Remote/Hybrid" src="https://img.shields.io/badge/Work-Remote%2FHybrid-64748B?style=flat&labelColor=1F2937" />
+ </p>
+
 <!-- Primary Links & Badges -->
 <p align="center">
   <a href="https://mihir-pandya.netlify.app/" target="_blank" aria-label="Portfolio website">
@@ -22,23 +31,12 @@
 </p>
 
 <p align="center">
-  <a href="mailto:pandya.mihir09@gmail.com" aria-label="Email Mihir"><b>pandya.mihir09@gmail.com</b></a> •
-  <b>Open to</b>: ML Engineer, Data Analyst, SWE (Full-time | Internship, Remote/Hybrid)
+  <a href="mailto:pandya.mihir09@gmail.com" aria-label="Email Mihir"><b>pandya.mihir09@gmail.com</b></a>
 </p>
 
----
+<hr/>
 
-## 📑 Table of Contents
-- [TL;DR Highlights](#-tldr-highlights)
-- [Featured Projects](#-featured-projects)
-- [What I'm Building Now](#-what-im-building-now-next-3060-days)
-- [Tech Stack](#-tech-stack-core)
-- [Certifications](#-certifications)
-- [GitHub Stats](#-github-stats)
-- [Highlights](#-highlights)
-- [Let’s Connect](#-lets-connect)
 
----
 
 ## 🚀 About Me  
 I'm an **ML Engineer, Data Analyst, and Software Engineer** passionate about transforming raw data into impactful insights and AI-powered solutions.  
@@ -46,7 +44,7 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
 
 ✨ *Fun fact:* I once turned event décor for a college festival into a **data-driven art project** 🎨📊  
 
----
+<hr/>
 
 ## ⚡ TL;DR Highlights
 - Built LLM/RAG tools that cut research lookup time by **70%** across 100+ papers.
@@ -58,43 +56,73 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
 ## 📂 Featured Projects
 
 ### 📚 LLM-Based Research Assistant
-- Problem: Slow, keyword-only discovery across large research corpora.
-- Outcome: Reduced lookup time by **70%** with RAG and semantic search.
-- Stack: LangChain, Pinecone, OpenAI/LLM, FastAPI, FAISS/Pinecone.
+- <b>Problem:</b> Slow, keyword-only discovery across large research corpora.
+- <b>Outcome:</b> Reduced lookup time by **70%** with RAG and semantic search.
+- <b>Stack:</b>
+  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?logo=chainlink&logoColor=white&style=flat" />
+  <img alt="Pinecone" src="https://img.shields.io/badge/Pinecone-00A78F?style=flat&logo=pinecone&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" />
+  <img alt="FAISS" src="https://img.shields.io/badge/FAISS-2E3440?style=flat&logo=vectorworks&logoColor=white" />
 - Repo: [genai-paper-reader](https://github.com/Axinion/genai-paper-reader)
 
 ### 🎵 Audio Genre Classifier & Recommender
-- Problem: Cold-start and low-quality music recommendations.
-- Outcome: Achieved **92%** accuracy, 0.91 F1; hybrid recsys increased engagement by **40%**.
-- Stack: PyTorch/CNN, Librosa, GTZAN, Streamlit, scikit-learn.
+- <b>Problem:</b> Cold-start and low-quality music recommendations.
+- <b>Outcome:</b> **92%** accuracy, 0.91 F1; hybrid recsys increased engagement by **40%**.
+- <b>Stack:</b>
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+  <img alt="Librosa" src="https://img.shields.io/badge/Librosa-3F4F75?style=flat" />
+  <img alt="GTZAN" src="https://img.shields.io/badge/GTZAN-D97706?style=flat" />
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
 - Repo: [music-genre-classification](https://github.com/Axinion/music-genre-classification)
 
 ### 💼 AI Job Recommendation System
-- Problem: Matching resumes to jobs at scale with limited structure.
-- Outcome: **85%** relevance@Top-5 over 20K+ postings; interactive filtering and resume parsing.
-- Stack: NLP (FastText/Embeddings), scikit-learn, Streamlit.
+- <b>Problem:</b> Matching resumes to jobs at scale with limited structure.
+- <b>Outcome:</b> **85%** relevance@Top-5 over 20K+ postings; interactive filtering and resume parsing.
+- <b>Stack:</b>
+  <img alt="FastText" src="https://img.shields.io/badge/FastText-0A66C2?style=flat" />
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
 - Repo: [job-recommender](https://github.com/Axinion/job-recommender)
+
+ 
+ ### 🎵 Music Genre Classifier & Recommender
+ - Problem: Cold-start and low-quality music recommendations.
+ - Outcome: Achieved **92%** accuracy, 0.91 F1; hybrid recsys increased engagement by **40%**.
+  - Stack:
+    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+    <img alt="Librosa" src="https://img.shields.io/badge/Librosa-3F4F75?style=flat" />
+    <img alt="GTZAN" src="https://img.shields.io/badge/GTZAN-D97706?style=flat" />
+    <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
+    <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
+ - Repo: [music-genre-classification](https://github.com/Axinion/music-genre-classification)
+
+ ### 📚 LLM-Based Research Assistant
+ - Problem: Slow, keyword-only discovery across large research corpora.
+ - Outcome: Reduced lookup time by **70%** with RAG and semantic search.
+  - Stack:
+    <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?logo=chainlink&logoColor=white&style=flat" />
+    <img alt="Pinecone" src="https://img.shields.io/badge/Pinecone-00A78F?style=flat&logo=pinecone&logoColor=white" />
+    <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+    <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" />
+    <img alt="FAISS" src="https://img.shields.io/badge/FAISS-2E3440?style=flat&logo=vectorworks&logoColor=white" />
+ - Repo: [genai-paper-reader](https://github.com/Axinion/genai-paper-reader)
+
 
 <details>
 <summary>More Projects</summary>
 
 - 📊 Sales Analytics Dashboard — Interactive sales trends, churn, demand forecasting; improved retention insights by **30%**.  
-  Stack: Tableau, Plotly, Prophet.  
+  Stack:
+  <img alt="Tableau" src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" />
+  <img alt="Plotly" src="https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" />
+  <img alt="Prophet" src="https://img.shields.io/badge/Prophet-6B7280?style=flat" />  
   Repo: [Sales-Analytics-Dashboard](https://github.com/Axinion/Sales-Analytics-Dashboard)
 
 </details>
 
-<!-- Repo Cards -->
-<p align="center">
-  <a href="https://github.com/Axinion/genai-paper-reader" aria-label="Pinned repo: genai-paper-reader">
-    <img alt="Pinned repo card: genai-paper-reader" src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=genai-paper-reader&theme=tokyonight&cache_seconds=86400" />
-  </a>
-  <a href="https://github.com/Axinion/music-genre-classification" aria-label="Pinned repo: music-genre-classification">
-    <img alt="Pinned repo card: music-genre-classification" src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=music-genre-classification&theme=tokyonight&cache_seconds=86400" />
-  </a>
-</p>
-
----
+<hr/>
 
 ## 🔭 What I'm Building Now (Next 30–60 Days)
 
@@ -116,7 +144,7 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
   - Auto-booking flow
 - Summary: Creating an intelligent system to discover best ticket options and automate booking using AI and integrations.
 
----
+<hr/>
 
 ## 🛠️ Tech Stack (Core)
 - Languages & Data: Python, SQL, Java, C++
@@ -146,7 +174,7 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
 
 </details>
 
----
+<hr/>
 
 ## 📊 GitHub Stats
 
@@ -167,7 +195,7 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
   <img alt="Profile views counter" src="https://komarev.com/ghpvc/?username=axinion&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
----
+<hr/>
 
 ## ⭐ Highlights
 - Built RAG assistant cutting lookup time by **70%** across 100+ papers.

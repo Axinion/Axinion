@@ -1,141 +1,185 @@
 
 <h1 align="center">Hi 👋, I'm Mihir Pandya</h1>
-<h3 align="center">Data Scientist | ML Engineer | AI Enthusiast</h3>
+<h3 align="center">ML Engineer | Data Analyst | SWE</h3>
 
-<!-- Badges -->
+<p align="center"><b>I design and ship ML systems that turn messy data into measurable business impact.</b></p>
+<p align="center"><b>I build LLM/RAG assistants, recommender systems, and analytics that reduce time‑to‑insight and reach production.</b></p>
+
+<!-- Primary Links & Badges -->
 <p align="center">
-  <a href="https://mihir-pandya.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%230A66C2.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <a href="https://mihir-pandya.netlify.app/" target="_blank" aria-label="Portfolio website">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%230A66C2.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/pandyamihir" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://linkedin.com/in/pandyamihir" target="_blank" aria-label="LinkedIn profile">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://kaggle.com/depayy" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF.svg?&style=for-the-badge&logo=kaggle&logoColor=white" />
+  <a href="https://kaggle.com/depayy" target="_blank" aria-label="Kaggle profile">
+    <img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF.svg?&style=for-the-badge&logo=kaggle&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/looophole" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?&style=for-the-badge&logo=leetcode&logoColor=white" />
+  <a href="https://leetcode.com/looophole" target="_blank" aria-label="LeetCode profile">
+    <img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-FFA116.svg?&style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <a href="mailto:pandya.mihir09@gmail.com" aria-label="Email Mihir"><b>pandya.mihir09@gmail.com</b></a> •
+  <b>Open to</b>: ML Engineer, Data Analyst, SWE (Full-time | Internship, Remote/Hybrid)
 </p>
 
 ---
 
+## 📑 Table of Contents
+- [TL;DR Highlights](#-tldr-highlights)
+- [Featured Projects](#-featured-projects)
+- [What I'm Building Now](#-what-im-building-now-next-3060-days)
+- [Tech Stack](#-tech-stack-core)
+- [Certifications](#-certifications)
+- [GitHub Stats](#-github-stats)
+- [Highlights](#-highlights)
+- [Let’s Connect](#-lets-connect)
+
+---
+
 ## 🚀 About Me  
-I'm a **Data Scientist & ML Engineer** passionate about transforming raw data into impactful insights and AI-powered solutions.  
+I'm an **ML Engineer, Data Analyst, and Software Engineer** passionate about transforming raw data into impactful insights and AI-powered solutions.  
 I enjoy solving complex problems using **machine learning, deep learning, and big data tools**.  
 
 ✨ *Fun fact:* I once turned event décor for a college festival into a **data-driven art project** 🎨📊  
 
 ---
 
-## 📂 Featured Projects  
+## ⚡ TL;DR Highlights
+- Built LLM/RAG tools that cut research lookup time by **70%** across 100+ papers.
+- Shipped DL-based audio recommender with **92%** accuracy and boosted engagement by **40%**.
+- Designed analytics that improved retention insights by **30%** and scaled to 20K+ items.
 
-### ⭐ Best Projects to Showcase (Impact + Recruiter Appeal)
+---
 
-- 📚 **LLM-Based Research Assistant (RAG, LangChain, Pinecone)**  
-  Implemented retrieval-augmented generation (RAG) for semantic search across 100+ research papers.  
-  Cut lookup time by **70%** using optimized embeddings & prompt templates.  
-  [Repo](https://github.com/Axinion/genai-paper-reader)
+## 📂 Featured Projects
 
-- 🎵 **Audio Genre Classifier & Recommender (CNN, Librosa, Streamlit)**  
-  Trained CNN on MFCC + spectral features (GTZAN dataset), achieving **92% accuracy** & 0.91 F1-score.  
-  Built a hybrid recommender (collaborative + content-based), boosting engagement by **40%**.  
-  [Repo](https://github.com/Axinion/music-genre-classification)
+### 📚 LLM-Based Research Assistant
+- Problem: Slow, keyword-only discovery across large research corpora.
+- Outcome: Reduced lookup time by **70%** with RAG and semantic search.
+- Stack: LangChain, Pinecone, OpenAI/LLM, FastAPI, FAISS/Pinecone.
+- Repo: [genai-paper-reader](https://github.com/Axinion/genai-paper-reader)
 
-- 💼 **AI Job Recommendation System (NLP, FastText, Streamlit)**  
-  Parsed/vectorized **20K+ job postings**, achieving **85% relevance@Top-5**.  
-  Deployed a Streamlit app for resume parsing + dynamic filtering.  
-  [Repo](https://github.com/Axinion/job-recommender)
+### 🎵 Audio Genre Classifier & Recommender
+- Problem: Cold-start and low-quality music recommendations.
+- Outcome: Achieved **92%** accuracy, 0.91 F1; hybrid recsys increased engagement by **40%**.
+- Stack: PyTorch/CNN, Librosa, GTZAN, Streamlit, scikit-learn.
+- Repo: [music-genre-classification](https://github.com/Axinion/music-genre-classification)
 
-- 📊 **Sales Analytics Dashboard (Tableau, Plotly, Prophet)**  
-  Built an interactive dashboard for sales trends, churn, and demand forecasting.  
-  Performed RFM analysis & clustering, improving customer retention insights by **30%**.  
-  [Repo](https://github.com/Axinion/Sales-Analytics-Dashboard)
+### 💼 AI Job Recommendation System
+- Problem: Matching resumes to jobs at scale with limited structure.
+- Outcome: **85%** relevance@Top-5 over 20K+ postings; interactive filtering and resume parsing.
+- Stack: NLP (FastText/Embeddings), scikit-learn, Streamlit.
+- Repo: [job-recommender](https://github.com/Axinion/job-recommender)
+
+<details>
+<summary>More Projects</summary>
+
+- 📊 Sales Analytics Dashboard — Interactive sales trends, churn, demand forecasting; improved retention insights by **30%**.  
+  Stack: Tableau, Plotly, Prophet.  
+  Repo: [Sales-Analytics-Dashboard](https://github.com/Axinion/Sales-Analytics-Dashboard)
+
+</details>
 
 <!-- Repo Cards -->
 <p align="center">
-  <a href="https://github.com/Axinion/genai-paper-reader">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=genai-paper-reader&theme=tokyonight" />
+  <a href="https://github.com/Axinion/genai-paper-reader" aria-label="Pinned repo: genai-paper-reader">
+    <img alt="Pinned repo card: genai-paper-reader" src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=genai-paper-reader&theme=tokyonight&cache_seconds=86400" />
   </a>
-  <a href="https://github.com/Axinion/music-genre-classification">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=music-genre-classification&theme=tokyonight" />
+  <a href="https://github.com/Axinion/music-genre-classification" aria-label="Pinned repo: music-genre-classification">
+    <img alt="Pinned repo card: music-genre-classification" src="https://github-readme-stats.vercel.app/api/pin/?username=Axinion&repo=music-genre-classification&theme=tokyonight&cache_seconds=86400" />
   </a>
 </p>
 
 ---
 
-## 🌱 Currently Learning  
-- Advanced ML: XGBoost, Transformers, AutoML  
-- Deep Learning: CNNs, RNNs, Transformers (PyTorch/TensorFlow)  
-- MLOps & LLM Frameworks: MLflow, LangChain, Hugging Face  
-- Big Data & Orchestration: Spark, Hadoop, Airflow, dbt  
-- Cloud-Native Workflows: Kubernetes, Docker, CI/CD  
+## 🔭 What I'm Building Now (Next 30–60 Days)
+
+#### AI-based Stock Market Prediction
+- Focus: Time-series forecasting
+- Progress: Build 20%
+- Tasks:
+  - Data ingestion & cleaning
+  - Feature engineering
+  - Backtesting pipeline
+- Summary: Building predictive models for stock price trends using ML/AI with feature engineering and backtesting.
+
+#### AI-based Ticket Finder & Booking System
+- Focus: NLP + Automation
+- Progress: Testing 70%
+- Tasks:
+  - Scraper + API integration
+  - Pricing model
+  - Auto-booking flow
+- Summary: Creating an intelligent system to discover best ticket options and automate booking using AI and integrations.
 
 ---
 
-## 🛠️ Tech Stack  
+## 🛠️ Tech Stack (Core)
+- Languages & Data: Python, SQL, Java, C++
+- ML/AI: scikit-learn, PyTorch, TensorFlow, LangChain
+- Data & Orchestration: Spark, Airflow, dbt
+- Cloud & DevOps: AWS, Docker, Kubernetes, GitHub Actions
+- Viz & BI: Tableau, Power BI, Plotly
 
-### Languages & Data  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white) 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
+<details>
+<summary>Comfort Levels</summary>
 
-### Machine Learning & AI  
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)  
+- Primary Tools: Python, PyTorch, scikit-learn, LangChain, AWS, Docker
+- Working Knowledge: TensorFlow, Spark, Airflow, Kubernetes, dbt, Tableau, Power BI
 
-### Cloud & DevOps  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) 
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)  
-
-### Visualization & BI  
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black) 
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)  
+</details>
 
 ---
 
-## 📜 Certifications  
-- 🏅 IBM Data Science Professional Certificate (Coursera)  
-- ☁️ AWS Certified Solutions Architect – Associate (In Progress)  
-- 🥇 HackerRank SQL Gold Badge  
+## 📜 Certifications
+- IBM Data Science Professional Certificate (Coursera)
+- HackerRank SQL Gold Badge
+
+<details>
+<summary>In Progress</summary>
+
+- AWS Certified Solutions Architect – Associate
+
+</details>
 
 ---
 
-## 📊 GitHub Stats  
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=axinion&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axinion&layout=compact&theme=tokyonight" height="160"/>
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=axinion&show_icons=true&theme=tokyonight&cache_seconds=86400" height="160"/>
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=axinion&layout=compact&theme=tokyonight&cache_seconds=86400" height="160"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=axinion&theme=tokyonight" height="160"/>
-</p>
+
 
 <!-- Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=axinion&theme=tokyo-night&hide_border=true" />
+  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=axinion&theme=tokyo-night&hide_border=true&cache_seconds=86400" />
 </p>
 
 <!-- Profile Views -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=axinion&label=Profile%20views&color=0e75b6&style=flat" alt="axinion" />
+  <img alt="Profile views counter" src="https://komarev.com/ghpvc/?username=axinion&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
 ---
 
-## 🤝 Let’s Connect  
+## ⭐ Highlights
+- Built RAG assistant cutting lookup time by **70%** across 100+ papers.
+- Delivered hybrid recommender with **92%** accuracy; engagement up **40%**.
+- Ran analytics that improved retention insights by **30%**.
+- Processed 20K+ job postings with **85%** relevance@Top-5.
+
+## 🤝 Let’s Connect
 - 💼 [LinkedIn](https://linkedin.com/in/pandyamihir)  
 - 🌐 [Portfolio](https://mihir-pandya.netlify.app/)  
 - 📊 [Kaggle](https://kaggle.com/depayy)  
 - 🧑‍💻 [LeetCode](https://leetcode.com/looophole)  
-- 📷 [Instagram](https://instagram.com/mi.hi.r_p)  
 
 ---
 
@@ -146,3 +190,5 @@ I enjoy solving complex problems using **machine learning, deep learning, and bi
 <p align="center">
   <i>“Turning data into stories, and stories into impact.”</i>
 </p>
+
+<p align="center"><b>Looking for SWE roles — email me to collaborate: <a href="mailto:pandya.mihir09@gmail.com">pandya.mihir09@gmail.com</a></b></p>
